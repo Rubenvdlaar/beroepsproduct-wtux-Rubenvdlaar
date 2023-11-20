@@ -1,0 +1,144 @@
+header{
+    display:flex;
+    height: 10rem;
+    background-color:lightblue;
+    justify-content:space-between;
+}
+header .logo{
+    height:100%;
+}
+
+header h1{
+    display:inline-block;
+
+
+}
+
+header nav{
+    display:inline-block;
+    right:10%;
+    top:20%;
+}
+
+section h1{
+    font-size:64px;
+    display:flex;
+    justify-content:center;
+   }
+
+#Welkom{
+    text-align:center;  
+}
+
+section div{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin:40px;
+    font-size:32px;
+}
+
+.medewerker{
+    background-color:lightblue;
+    padding:10px;
+}
+
+.passagier{
+    background-color:lightblue;
+    padding:10px;
+}
+
+
+/* privacyverklaring pagina */
+
+header .home{
+    display:inline-block;
+    position:absolute;
+    right:20%;
+    top:20%;
+    
+}
+
+#Privacyverklaring{
+text-align:center;
+}
+
+
+/*login als medewerkerpagina*/
+#Login{
+    text-align:center;
+}
+
+
+form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    margin:2rem;
+}
+
+ul{
+    list-style-type: none;
+    margin:3rem;
+}
+
+input{
+    display:flex;
+    vertical-align:middle;
+}
+
+.button{
+    display:flex;
+    justify-content:center;
+}
+
+
+/* vluchtenlijst gebruiker */
+
+.vluchtenlijst{
+    display:grid;
+    gap:10px;
+}
+.Vlucht1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: #2196F3;
+}
+
+.Vlucht2{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: #2196F3;
+}
+
+.Vlucht3{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: #2196F3;
+}
+
+.vluchtnrzoek{
+    display:grid;
+    justify-content:right;
+}
+
+/* vluchtenlijst medewerker */
+.Vluchttoevoegen{
+    display:flex;
+    justify-content:center;
+}
+
+#vluchtnummer{
+    display:grid;
+    justify-content:center;
+}
+
+#kalender{
+    display:grid;
+    justify-content:left;
+}
