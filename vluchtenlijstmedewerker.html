@@ -14,8 +14,8 @@
         <nav>
         <a class= privacylink href="privacyverklaring.html">Privacyverklaring</a>
         <a class="startpagina" href="startpagina.html">log in</a>
-        <a class="vluchtenlijst" href="vluchtenlijst gebruiker.html">Vluchtenlijst</a>
-        <a class="vluchtenlijstmw" href="vluchtenlijst medewerker.html">VluchtenlijstMW</a>
+        <a class="vluchtenlijst" href="Passagiertoevoegen.html">Passagier toevoegen</a>
+        <a class="vluchtenlijstmw" href="vluchtenlijstmedewerker.html">VluchtenlijstMW</a>
         </nav>
     </header>
     <section>
@@ -27,13 +27,19 @@
     <input type="number" id="vluchtnummer" name="vluchtnummer"/>
     </div>
 
-    <a class="Vluchttoevoegen" href="vlucht toevoegen medewerker.html">+ nieuwe vlucht</a>
+    <a class="Vluchttoevoegen" href="vluchttoevoegenmedewerker.html">+ nieuwe vlucht</a>
     <label for="agenda">Kalender</label>
-    <input type="datetime-local" id="kalender" name="kalender">
+    <input type="datetime-local" id="agenda" name="kalender">
     </div>
 
 <div class="vluchtenlijst">
-    <h3>Vandaag</h3>
+    <section class="vluchtenlijstknoppen">
+        <h3>Vandaag</h3>
+        <div class="sorteerknoppen">
+        <button type="button">Sorteer tijd</button>
+        <button type="button">Sorteer op luchthaven</button>
+        </div>
+        </section>
     <div class="Vlucht1">
         <div class="tijd">12.00</div>
         <div class="Locatie">Schiphol</div>
@@ -59,7 +65,6 @@
             <a class="Details" href="vluchtdetails.html">Details</a>
             </div>
         <div class="Vluchtnummer">1345</div>
-        </div>
     </div>
 </div>
 </body>

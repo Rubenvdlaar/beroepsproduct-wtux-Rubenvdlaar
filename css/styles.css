@@ -127,6 +127,16 @@ input{
     justify-content:right;
 }
 
+.vluchtenlijstknoppen{
+    display:flex;
+    align-items:center;
+}
+
+.sorteerknoppen{
+    display:flex;
+    column-gap:10px;
+}
+
 /* vluchtenlijst medewerker */
 .Vluchttoevoegen{
     display:flex;
@@ -141,4 +151,83 @@ input{
 #kalender{
     display:grid;
     justify-content:left;
+}
+
+/* vlucht toevoegen medewerker */
+
+body form ul{
+    display:block;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+
+.toevoegh1{
+    text-align:center;
+}
+
+
+/* passagier toevoegen */
+.passagiertoevoegen{
+    display:flex;
+    gap:3rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passagiertoevoegen li {
+    margin-bottom: 10px;
+}
+
+.naamveld {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+
+.naamveld label, .naamveld textarea {
+    width: 100%;
+}
+
+
+/*vluchtgegevens passagier */
+.baggageinchecken{
+    display:flex;
+    gap:3rem;
+    list-style:none;
+    padding:0;
+    margin:0;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:10rem;
+}
+
+
+/*detailpagina*/
+.vliegtuigfoto{
+    width:100%;
+    height:30rem;
+}
+
+.Detailtable {
+    display: table;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Detailtable th, .Detailtable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+.detailh1{
+    display:flex;
+    justify-content:center;
 }

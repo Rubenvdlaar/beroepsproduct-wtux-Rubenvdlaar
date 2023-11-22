@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passagier toevoegen</title>
+    <link rel="normalize" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/Logo.png" alt="Logo">
+        <h1>GelreAirport</h1>
+        <nav>
+        <a class= privacylink href="privacyverklaring.html">Privacyverklaring</a>
+        <a class="startpagina" href="startpagina.html">log in</a>
+        <a class="vluchtenlijst" href="vluchtenlijstmedewerker.html">Vluchtenlijst</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+    <h1>Voeg passagier toe</h1>
+    </section>
+    
+    <form action="vluchtenlijstmedewerker.html" method="post">
+        <ul class="passagiertoevoegen">
+            <li>
+                <label for="vluchtnummer">Vluchtnummer</label>
+                <input type="number" id="vluchtnummer" name="vluchtnummer" />
+            </li>
+            <li>
+                <div class="naamveld">
+                <label for="voornaam">Voornaam</label>
+                <textarea id="voornaam" name="voornaam"></textarea>
+                
+                <label for="achternaam">Achternaam</label>
+                <textarea id="achternaam" name="achternaam"></textarea>
+            </div>
+            </li>
+            <li>
+                <label for="geboortedatum">Geboortedatum</label>
+                <input type="datetime-local" id="geboortedatum" name="geboortedatum">
+            </li>
+            <li>
+                <label for="aantal_koffers">Aantal koffers</label>
+                <input type="number" id="aantal_koffers" name="aantal koffers">
+            </li>
+            <li>
+                <label for="totale_gewicht">Totale gewicht baggage in kg</label>
+                <input type="number" id="totale_gewicht" name="totale gewicht">
+              <li class="button">
+                <button type="submit">Voeg toe!</button>
+              </li>
+            </ul>
+              </form> 
+    </main>
+</body>
+</html>

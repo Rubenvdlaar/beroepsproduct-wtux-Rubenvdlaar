@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vlucht toevoegen medewerker</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/Logo.png" alt="Logo">
+        <h1>GelreAirport</h1>
+        <nav>
+        <a class= privacylink href="privacyverklaring.html">Privacyverklaring</a>
+        <a class="startpagina" href="startpagina.html">log in</a>
+        <a class="vluchtenlijst" href="Passagiertoevoegen.html">Passagier toevoegen</a>
+        </nav>
+    </header>
+    <h1 class="toevoegh1">Voeg nieuwe vlucht toe</h1>
+    
+    <form action="vluchtenlijstmedewerker.html" method="post">
+        <ul class="toevoegen">
+            <li>
+                <label for="datum">Datum:</label>
+                <input type="datetime-local" id="datum" name="datum_gemaakt" />
+            </li>
+            <li>
+                <label for="Plaats">Plaats</label>
+                <textarea id="Plaats" name="Plaats"></textarea>
+            </li>
+            <li>
+                <label for="Vertrektijd">Vertrektijd</label>
+                <input type="time" id="Vertrektijd" name="Vertrektijd">
+            </li>
+            <li>
+                <label for="Balie">Balie</label>
+                <textarea id="Balie" name="Balie"></textarea>
+            </li>
+            <li>
+                <label for="Gate">Balie</label>
+                <textarea id="Gate" name="Gate"></textarea>
+            </li>
+            <li>
+                <h3 class="vliegtuiggegevens">Vliegtuiggegevens</h3>
+                <label for="type">type</label>
+                <textarea id="type" name="type"></textarea>
+            </li>
+            <li class="button">
+                <button type="button">Voeg toe!</button>
+              </li>
+
+              </ul>
+              </form> 
+    
+</body>
+</html>
